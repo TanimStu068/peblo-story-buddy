@@ -1,0 +1,51 @@
+name: peblo_story_buddy_app
+description: "Peblo AI Story Buddy & Quiz App"
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  provider: ^6.1.5+1
+  flutter_tts: ^4.2.5
+  confetti: ^0.8.0
+  vibration: ^3.2.0
+  google_fonts: ^8.1.0
+  lottie: ^3.3.3
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # App Icon Generator
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/icon/app_icon.jpeg
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+
+  image_path: "assets/icon/app_icon.jpeg"
+
+  # Android adaptive icon
+  adaptive_icon_background: "#FFF8F0"
+  adaptive_icon_foreground: "assets/icon/app_icon.jpeg"
+
+  min_sdk_android: 21
+  remove_alpha_ios: true
