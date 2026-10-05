@@ -287,4 +287,12 @@ flutter run --release
 
 ---
 
+## License
+
+This project is currently not licensed for reuse, modification,
+or redistribution. All rights reserved by the project author.
+
+Please do not copy, modify, distribute, or use this project
+without permission.
+
 *Built with ❤️ for Peblo — where education meets joy.*
